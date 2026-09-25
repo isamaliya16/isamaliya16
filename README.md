@@ -230,8 +230,6 @@ graph LR
 
 <div align="center">
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:6C63FF&height=120&section=footer" width="100%"/>
 
 **⭐ Thanks for visiting — explore the repos, star what's useful, and let's connect!**
