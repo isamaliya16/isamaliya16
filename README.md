@@ -271,67 +271,6 @@ A clean task manager web app with user accounts and a database backend.
 
 <a id="stats"></a>
 
-## 📈 &nbsp;GitHub Statistics
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=isamaliya16&show_icons=true&hide_border=true&bg_color=F7F8F0&title_color=355872&icon_color=7AAACE&text_color=355872&include_all_commits=true&count_private=true" alt="GitHub stats card for isamaliya16"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isamaliya16&layout=compact&hide_border=true&bg_color=F7F8F0&title_color=355872&text_color=355872&langs_count=8" alt="Most used programming languages"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=isamaliya16&hide_border=true&background=F7F8F0&ring=355872&fire=7AAACE&currStreakLabel=355872&sideLabels=355872&currStreakNum=355872&sideNums=355872&dates=7AAACE" alt="GitHub contribution streak" width="80%"/>
-
-<details>
-<summary><b>Stats not loading? Open the fallback links</b></summary>
-<br/>
-
-Free stat services sometimes hit rate limits. Your profile still works without them.
-
-[Profile stats](https://github-readme-stats.vercel.app/api?username=isamaliya16&show_icons=true) ·
-[Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=isamaliya16&layout=compact) ·
-[Streak](https://streak-stats.demolab.com?user=isamaliya16) ·
-[GitHub profile](https://github.com/isamaliya16)
-
-</details>
-
-</div>
-
-<div align="center"><img src="assets/section-divider.svg" alt="" width="100%"/></div>
-
-## 🌐 &nbsp;Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=isamaliya16&bg_color=F7F8F0&color=355872&line=7AAACE&point=355872&area=true&area_color=9CD5FF&hide_border=true" alt="Contribution activity graph over the last 31 days" width="100%"/>
-
-**🐍 My contribution snake** *(auto-updated daily by GitHub Actions)*
-
-<img src="https://raw.githubusercontent.com/isamaliya16/isamaliya16/output/github-contribution-grid-snake.svg" alt="Snake animation eating my GitHub contributions" width="100%"/>
-
-**🏆 Trophies**
-
-<img src="https://github-profile-trophy.vercel.app/?username=isamaliya16&theme=flat&no-frame=true&margin-w=10&column=7" alt="GitHub achievement trophies" width="100%"/>
-
-</div>
-
-<div align="center"><img src="assets/section-divider.svg" alt="" width="100%"/></div>
-
-## 🎓 &nbsp;Certifications & Learning
-
-| 📚 Learning track | Status |
-|:---|:---:|
-| Python for Data Analysis | 🟦 Ongoing |
-| SQL & Databases | 🟦 Ongoing |
-| Machine Learning Fundamentals | 🟦 Ongoing |
-| Deep Learning & NLP | ⬜ Up next |
-
-<!-- EDIT: Add real certificates here. Example row:
-| 🏅 Google Data Analytics Certificate | Google / Coursera | 2025 | [Verify](https://link) |
--->
-
-> 📝 **EDIT:** Add your real certificates (with verification links) as soon as you earn them. Recruiters love proof.
-
 <div align="center"><img src="assets/section-divider.svg" alt="" width="100%"/></div>
 
 ## 🏫 &nbsp;Education
