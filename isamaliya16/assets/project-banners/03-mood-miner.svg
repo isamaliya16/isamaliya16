@@ -1,0 +1,9 @@
+<svg width="600" height="180" viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+<title id="t">Chat bubbles with a typing indicator</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7F8F0"/><stop offset="1" stop-color="#DDEFFF"/></linearGradient></defs>
+<rect x="1" y="1" width="598" height="178" rx="16" fill="url(#g)" stroke="#9CD5FF" stroke-width="2"/>
+<text x="32" y="48" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#7AAACE">NATURAL LANGUAGE PROCESSING</text>
+<text x="32" y="92" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="27" font-weight="800" fill="#355872">Mood Miner</text>
+<g transform="translate(380,20)"><rect x="5" y="10" width="130" height="42" rx="14" fill="#9CD5FF"/><rect x="20" y="24" width="90" height="6" rx="3" fill="#355872" opacity=".7"/><rect x="20" y="36" width="60" height="6" rx="3" fill="#355872" opacity=".4"/>
+<rect x="65" y="64" width="130" height="42" rx="14" fill="#355872"/><rect x="80" y="78" width="95" height="6" rx="3" fill="#F7F8F0" opacity=".8"/><rect x="80" y="90" width="55" height="6" rx="3" fill="#F7F8F0" opacity=".5"/><circle cx="90" cy="125" r="5" fill="#7AAACE"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="106" cy="125" r="5" fill="#7AAACE"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" begin="0.25s" repeatCount="indefinite"/></circle><circle cx="122" cy="125" r="5" fill="#7AAACE"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" begin="0.5s" repeatCount="indefinite"/></circle><text x="5" y="132" font-family="Segoe UI,Arial" font-size="22" fill="#355872">+<animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/></text></g>
+</svg>

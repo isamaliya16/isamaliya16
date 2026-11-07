@@ -1,0 +1,31 @@
+<svg width="520" height="320" viewBox="0 0 520 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Animated data dashboard illustration</title>
+  <desc id="d">A small dashboard with growing bars, a drawing trend line and pulsing data points.</desc>
+  <rect width="520" height="320" rx="20" fill="#F7F8F0" stroke="#9CD5FF" stroke-width="2"/>
+  <rect x="0" y="0" width="520" height="44" rx="20" fill="#355872"/>
+  <rect x="0" y="22" width="520" height="22" fill="#355872"/>
+  <circle cx="26" cy="22" r="6" fill="#9CD5FF"/><circle cx="46" cy="22" r="6" fill="#7AAACE"/><circle cx="66" cy="22" r="6" fill="#F7F8F0"/>
+  <text x="260" y="27" text-anchor="middle" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#F7F8F0" letter-spacing="1">insights.ipynb</text>
+  <!-- axes -->
+  <g stroke="#7AAACE" stroke-width="1.5" opacity=".6"><line x1="50" y1="80" x2="50" y2="270"/><line x1="50" y1="270" x2="480" y2="270"/></g>
+  <g stroke="#9CD5FF" stroke-width="1" stroke-dasharray="4 6" opacity=".7"><line x1="50" y1="130" x2="480" y2="130"/><line x1="50" y1="200" x2="480" y2="200"/></g>
+  <!-- bars -->
+  <g>
+    <rect x="80" width="38" rx="6" fill="#9CD5FF"><animate attributeName="height" values="30;110;30" dur="5s" repeatCount="indefinite"/><animate attributeName="y" values="240;160;240" dur="5s" repeatCount="indefinite"/></rect>
+    <rect x="150" width="38" rx="6" fill="#7AAACE"><animate attributeName="height" values="60;150;60" dur="5.5s" repeatCount="indefinite"/><animate attributeName="y" values="210;120;210" dur="5.5s" repeatCount="indefinite"/></rect>
+    <rect x="220" width="38" rx="6" fill="#9CD5FF"><animate attributeName="height" values="50;90;50" dur="4.5s" repeatCount="indefinite"/><animate attributeName="y" values="220;180;220" dur="4.5s" repeatCount="indefinite"/></rect>
+    <rect x="290" width="38" rx="6" fill="#7AAACE"><animate attributeName="height" values="80;170;80" dur="6s" repeatCount="indefinite"/><animate attributeName="y" values="190;100;190" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="360" width="38" rx="6" fill="#355872"><animate attributeName="height" values="100;185;100" dur="5.2s" repeatCount="indefinite"/><animate attributeName="y" values="170;85;170" dur="5.2s" repeatCount="indefinite"/></rect>
+    <rect x="430" width="38" rx="6" fill="#7AAACE"><animate attributeName="height" values="70;140;70" dur="4.8s" repeatCount="indefinite"/><animate attributeName="y" values="200;130;200" dur="4.8s" repeatCount="indefinite"/></rect>
+  </g>
+  <!-- trend line -->
+  <polyline points="99,170 169,135 239,165 309,115 379,95 449,125" fill="none" stroke="#355872" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="500" stroke-dashoffset="500">
+    <animate attributeName="stroke-dashoffset" values="500;0;0;500" keyTimes="0;.5;.85;1" dur="7s" repeatCount="indefinite"/>
+  </polyline>
+  <g fill="#355872">
+    <circle cx="99" cy="170" r="5"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="239" cy="165" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin=".4s" repeatCount="indefinite"/></circle>
+    <circle cx="379" cy="95" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin=".8s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="50" y="300" font-family="Courier New,monospace" font-size="13" fill="#355872">df.groupby("month").sum()<tspan fill="#7AAACE">  # insight</tspan><animate attributeName="opacity" values="1;.4;1" dur="2s" repeatCount="indefinite"/></text>
+</svg>

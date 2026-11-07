@@ -1,0 +1,60 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Ayush Isamaliya - Data Analytics, AI and Machine Learning</title>
+  <desc id="d">Animated banner with moving waves, rising data bars and floating nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F8F0"/><stop offset="1" stop-color="#DDEFFF"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9CD5FF" stop-opacity=".75"/><stop offset="1" stop-color="#7AAACE" stop-opacity=".75"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="320" rx="24"/></clipPath>
+    <style>
+      .f{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+      @keyframes wave{to{transform:translateX(-600px)}}
+      @keyframes wave2{to{transform:translateX(600px)}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+      @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+      .w1{animation:wave 14s linear infinite}
+      .w2{animation:wave2 20s linear infinite}
+      .fl{animation:float 5s ease-in-out infinite}
+      .r1{animation:rise 1s ease-out both}
+      .r2{animation:rise 1s ease-out .4s both}
+      .r3{animation:rise 1s ease-out .8s both}
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <!-- waves -->
+    <g class="w2" opacity=".55"><path d="M-600,250 Q-450,215 -300,250 T0,250 T300,250 T600,250 T900,250 T1200,250 T1500,250 V320 H-600 Z" fill="#9CD5FF"/></g>
+    <g class="w1"><path d="M0,272 Q150,240 300,272 T600,272 T900,272 T1200,272 T1500,272 T1800,272 V320 H0 Z" fill="url(#w1)"/></g>
+    <rect y="296" width="1200" height="24" fill="#355872" opacity=".92"/>
+    <!-- data bars -->
+    <g fill="#355872">
+      <rect x="860" y="190" width="28" height="106" rx="5" opacity=".9"><animate attributeName="height" values="40;106;40" dur="4s" repeatCount="indefinite"/><animate attributeName="y" values="256;190;256" dur="4s" repeatCount="indefinite"/></rect>
+      <rect x="902" y="150" width="28" height="146" rx="5" fill="#7AAACE"><animate attributeName="height" values="70;146;70" dur="4.6s" repeatCount="indefinite"/><animate attributeName="y" values="226;150;226" dur="4.6s" repeatCount="indefinite"/></rect>
+      <rect x="944" y="110" width="28" height="186" rx="5"><animate attributeName="height" values="90;186;90" dur="5.2s" repeatCount="indefinite"/><animate attributeName="y" values="206;110;206" dur="5.2s" repeatCount="indefinite"/></rect>
+      <rect x="986" y="140" width="28" height="156" rx="5" fill="#7AAACE"><animate attributeName="height" values="60;156;60" dur="3.8s" repeatCount="indefinite"/><animate attributeName="y" values="236;140;236" dur="3.8s" repeatCount="indefinite"/></rect>
+      <rect x="1028" y="80" width="28" height="216" rx="5"><animate attributeName="height" values="110;216;110" dur="4.4s" repeatCount="indefinite"/><animate attributeName="y" values="186;80;186" dur="4.4s" repeatCount="indefinite"/></rect>
+    </g>
+    <!-- trend line -->
+    <polyline points="860,170 902,140 944,100 986,125 1028,70 1090,50" fill="none" stroke="#9CD5FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="400" stroke-dashoffset="400">
+      <animate attributeName="stroke-dashoffset" values="400;0;0;400" keyTimes="0;.45;.85;1" dur="7s" repeatCount="indefinite"/>
+    </polyline>
+    <!-- floating nodes -->
+    <g fill="#7AAACE">
+      <circle class="fl" cx="740" cy="70" r="7" opacity=".7"/>
+      <circle class="fl" cx="790" cy="120" r="5" opacity=".6" style="animation-delay:1s"/>
+      <circle class="fl" cx="1120" cy="130" r="8" fill="#9CD5FF" style="animation-delay:2s"/>
+      <circle class="fl" cx="1140" cy="200" r="5" style="animation-delay:.5s"/>
+    </g>
+    <g stroke="#7AAACE" stroke-width="1.5" opacity=".5"><line x1="740" y1="70" x2="790" y2="120"/><line x1="1120" y1="130" x2="1140" y2="200"/></g>
+    <!-- text -->
+    <g class="f">
+      <text class="r1" x="70" y="100" font-size="20" fill="#7AAACE" letter-spacing="4" font-weight="600">DATA  ·  AI  ·  MACHINE LEARNING</text>
+      <text class="r2" x="68" y="175" font-size="68" font-weight="800" fill="#355872">Ayush Isamaliya</text>
+      <text class="r3" x="70" y="222" font-size="24" fill="#355872" opacity=".85">Turning raw data into clear decisions.</text>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="318.5" rx="23.5" fill="none" stroke="#9CD5FF" stroke-width="1.5"/>
+</svg>
