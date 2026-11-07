@@ -1,9 +1,0 @@
-<svg width="1000" height="28" viewBox="0 0 1000 28" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Section divider">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9CD5FF" stop-opacity="0"/><stop offset=".5" stop-color="#7AAACE"/><stop offset="1" stop-color="#9CD5FF" stop-opacity="0"/></linearGradient></defs>
-  <line x1="0" y1="14" x2="1000" y2="14" stroke="url(#g)" stroke-width="2"/>
-  <rect x="492" y="6" width="16" height="16" rx="3" fill="#355872" transform="rotate(45 500 14)">
-    <animateTransform attributeName="transform" type="rotate" values="45 500 14;405 500 14" dur="8s" repeatCount="indefinite"/>
-  </rect>
-  <circle cy="14" r="4" fill="#9CD5FF"><animate attributeName="cx" values="0;460;0" dur="6s" repeatCount="indefinite"/></circle>
-  <circle cy="14" r="4" fill="#9CD5FF"><animate attributeName="cx" values="1000;540;1000" dur="6s" repeatCount="indefinite"/></circle>
-</svg>
