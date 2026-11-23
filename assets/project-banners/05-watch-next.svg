@@ -1,8 +1,0 @@
-<svg width="600" height="180" viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
-<title id="t">Orbiting nodes around a central user node</title>
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7F8F0"/><stop offset="1" stop-color="#E6F3FF"/></linearGradient></defs>
-<rect x="1" y="1" width="598" height="178" rx="16" fill="url(#g)" stroke="#9CD5FF" stroke-width="2"/>
-<text x="32" y="48" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#7AAACE">RECOMMENDATION SYSTEMS</text>
-<text x="32" y="92" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="27" font-weight="800" fill="#355872">Watch Next</text>
-<g transform="translate(380,20)"><circle cx="100" cy="70" r="50" fill="none" stroke="#9CD5FF" stroke-dasharray="4 6"/><circle cx="100" cy="70" r="28" fill="none" stroke="#9CD5FF" stroke-dasharray="4 6"/><circle cx="100" cy="70" r="14" fill="#355872"/><g><animateTransform attributeName="transform" type="rotate" from="0 100 70" to="360 100 70" dur="9s" repeatCount="indefinite"/><circle cx="150" cy="70" r="8" fill="#7AAACE"/><circle cx="52" cy="104" r="7" fill="#9CD5FF"/><circle cx="110" cy="20" r="6" fill="#7AAACE"/></g><g><animateTransform attributeName="transform" type="rotate" from="360 100 70" to="0 100 70" dur="6s" repeatCount="indefinite"/><circle cx="128" cy="70" r="6" fill="#355872"/><circle cx="86" cy="49" r="5" fill="#9CD5FF"/></g></g>
-</svg>

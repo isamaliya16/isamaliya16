@@ -1,8 +1,0 @@
-<svg width="600" height="180" viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
-<title id="t">Browser window with a scanning highlight</title>
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E1F1FF"/><stop offset="1" stop-color="#F7F8F0"/></linearGradient></defs>
-<rect x="1" y="1" width="598" height="178" rx="16" fill="url(#g)" stroke="#9CD5FF" stroke-width="2"/>
-<text x="32" y="48" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#7AAACE">PYTHON AUTOMATION</text>
-<text x="32" y="92" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="27" font-weight="800" fill="#355872">PriceHawk</text>
-<g transform="translate(380,20)"><rect x="5" y="5" width="190" height="130" rx="10" fill="#F7F8F0" stroke="#355872" stroke-width="2"/><rect x="5" y="5" width="190" height="20" rx="10" fill="#355872"/><rect x="5" y="15" width="190" height="10" fill="#355872"/><rect x="18" y="38" width="90" height="8" rx="4" fill="#9CD5FF"/><rect x="140" y="38" width="38" height="8" rx="4" fill="#7AAACE"/><rect x="18" y="60" width="82" height="8" rx="4" fill="#9CD5FF"/><rect x="140" y="60" width="38" height="8" rx="4" fill="#7AAACE"/><rect x="18" y="82" width="74" height="8" rx="4" fill="#9CD5FF"/><rect x="140" y="82" width="38" height="8" rx="4" fill="#7AAACE"/><rect x="18" y="104" width="66" height="8" rx="4" fill="#9CD5FF"/><rect x="140" y="104" width="38" height="8" rx="4" fill="#7AAACE"/><rect x="8" y="28" width="184" height="12" fill="#7AAACE" opacity=".35"><animateTransform attributeName="transform" type="translate" values="0 0;0 88;0 0" dur="3.2s" repeatCount="indefinite"/></rect></g>
-</svg>
